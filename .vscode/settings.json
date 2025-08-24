@@ -1,0 +1,25 @@
+{ 
+  "latex-workshop.latex.recipe.default": "latexmk (latexmkrc)",
+
+  "latex-workshop.latex.outDir": "./out",
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.latex.autoClean.run" : "never", //texのコンパイル時に中間ファイルを消去しない
+
+  "search.exclude": {
+    ".history": true,
+    ".vscode": true,
+    "out": true,
+  },
+  
+  "latex-workshop.intellisense.atSuggestion.user": {
+    "@mr": "\\mathrm{${1:argument}}",
+    "@mr2": "$\\mathrm{${1:argument}}$",
+    "@equ": "$${1:argument}$",
+    "@red": "\\textcolor{red}{${1:argument}}",
+    "@sl"   : "%----------------------------------------------------------------------------------------------------------",
+    "@sl_s" : "%----------------------------------------------------------------------",
+    "@sl_ss": "%------------------------------",
+  },
+}
+
+// bash ../sync.sh

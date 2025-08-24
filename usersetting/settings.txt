@@ -1,0 +1,10 @@
+{ 
+  "editor.wordWrap" : "on", // コードを折り返して表示
+  "latex-workshop.latex.autoClean.run" : "never", //texのコンパイル時に中間ファイルを消去しない
+  "search.exclude": {".history": true, ".vscode": true, }, //この二つのフォルダを検索時に表示候補から外す
+  "editor.tabSize": 2, //インデントをスペース2つ分にする
+  "editor.renderWhitespace": "all", //スペース，タブを可視化する
+
+}
+
+// bash ../sync.sh
